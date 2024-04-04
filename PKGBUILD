@@ -2,7 +2,7 @@
 # Contributor: Amina Khakimova <hakami1024@gmail.com>
 # Contributor: Marcel Campello Ferreira <marcel.campello.ferreira@gmail.com>
 pkgname=neo4j-enterprise
-pkgver=5.12.0
+pkgver=5.18.1
 pkgrel=1
 pkgdesc='A fully transactional graph database implemented in Java'
 arch=(any)
@@ -21,8 +21,8 @@ source=(http://dist.neo4j.org/neo4j-enterprise-$pkgver-unix.tar.gz
         neo4j.service
         neo4j-tmpfile.conf)
 
-sha256sums=('282c8601cbcc04fc49dfefec305c1f3d824ba2cd16ea3d30721051bfcea05239'
-            '421dc29e493850104fa8909bd1e9ca8b5588193090f9c61f0608e432d64f1a79'
+sha256sums=('a2ab866be05d2decef558b3e711c4b4403f3a35be6b87f7b94c618bb83b8f7c3'
+            '47ffc2aff4b3012a67514687a5bd6c2e1f5ce5891e9ae5bfc0d3dd4648cb030b'
             '5d5b0a2137dd093b1e18b264b4a54b9d1f84029100ef6a513361d71d1ddeb8f6'
             '8cdf6de9864f66b8f435b8da5c04245a7fa23dde986cc7aec3133261e4003c64'
             '42d4fa137d2a0eb1541780a4afef1bdaebf6c6e593cf7f285b527ea0e07bdf74'
